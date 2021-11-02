@@ -12,19 +12,32 @@ print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
+  puts name
 end
 
 print_name("Albus Dumbledore")
 
-# Write a method that takes in 2 numbers as arguments and prints 
+# Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method three times with different arguments passed in:
-# YOUR CODE HERE
+def add(a, b)
+  puts a + b
+end
+add(1, 2)
+add(3, 4)
+add(5, 6)
 
-# Write a method that takes in two strings as arguments and prints 
-# a concatenation of those two strings. Example: The arguments could be 
-# (man, woman) and the end result might output: "When Harry Met Sally".  
-# Then call your method three times with different arguments passed in. 
+# Write a method that takes in two strings as arguments and prints
+# a concatenation of those two strings. Example: Trhe arguments could be
+# (man, woman) and the end result might output: "When Harry Met Sally".
+# Then call your method three times with different arguments passed in.
+
+def pet_type(pet1, pet2)
+  puts "I love #{pet1} and #{pet2}"
+end
+
+pet_type("dogs", "cats")
+pet_type("ferrets", "rabbits")
+pet_type("fish", "birds")
 
 
 #-------------------
@@ -37,5 +50,4 @@ print_name("Albus Dumbledore")
 # Look at the code you wrote for the previous YOU DO🎈 - what did you name the function, and why?
 # What did you name each parameter, and why?
 
-# EXPLAIN:
-
+# EXPLAIN:  I named the fucntion pet_type, as im looking for types of animals for pets, the Variables are pet1 and pet2, as these are specic animals as pets
