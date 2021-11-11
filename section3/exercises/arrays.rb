@@ -63,11 +63,8 @@ print foods
 # YOU DO: Write code to add 3 new foods to the array.
   # There are several ways to do this - choose whichever you'd like!
 # Then, print the changed array to verify the new items have been added
-foods << "grilled cheese"
-foods << "spagetti"
-foods << "ice cream"
+foods += ["grilled cheese", "spagetti", "ice cream"]
 puts foods
-
 # YOU DO: Remove the food that is in index position 0.
 puts foods.length
 foods.delete_at(0)
